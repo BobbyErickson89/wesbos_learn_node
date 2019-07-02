@@ -1,6 +1,6 @@
 const express = require('express');
 const session = require('express-session');
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); //allows us to work with our MongoDB database
 const MongoStore = require('connect-mongo')(session);
 const path = require('path');
 const cookieParser = require('cookie-parser');
